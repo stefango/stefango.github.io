@@ -1,16 +1,11 @@
-# stefango.github.io
-Weekly Report
-
 # 2018-2019-1
 
-## 许子立本周主要工作
+﻿##  许子立本周主要工作
 
 - 一是使用Xshell配置AWS EC2（CentOS7+Tomcat7+Java 1.7）
 - 二是编写<a href="http://54.169.47.114:8080/LabFirst/">实验室网页</a>
 - 三是提交大创项目中期报告
-
 ## 下周工作打算
-
 - 一是了解如何在树莓派上配置Nginx服务器并部署网站
 - 二是继续学习<a href="https://www.imooc.com/video/5553">Web开发</a>
 
@@ -64,16 +59,15 @@ Weekly Report
 ## Week10
 
 - JSP课程设计：用户搜索、过滤器、登录session验证
-
 - Oracle实验三、考试
 
 - 了解神经机器翻译 
 
-  - [(Neural Machine Translation）系列教程 - （一）神经机器翻译-开源项目](https://blog.csdn.net/shijiandehaizi/article/details/74930507)
+  + [(Neural Machine Translation）系列教程 - （一）神经机器翻译-开源项目](https://blog.csdn.net/shijiandehaizi/article/details/74930507)
 
   - [我爱自然语言处理](http://www.52nlp.cn/)
 
-  - [机器翻译自动评估-BLEU算法详解](https://blog.csdn.net/qq_31584157/article/details/77709454)
+  + [机器翻译自动评估-BLEU算法详解](https://blog.csdn.net/qq_31584157/article/details/77709454)
 
   - [知晓程序-腾讯翻译君-经BLEU评测翻译质量行业领先](https://minapp.com/miniapp/3410/)
 
@@ -171,12 +165,21 @@ setTimeout(function(){
 - [x] 主要：主页、个人中心
 - [x] 次要：购买页面、新闻公告、新闻页面
 
+
+
 # 2018-2019-2
 
 ## Week1
 
 - [x] PHP实验一
 - [x] 软件测试实验一
-- [ ] 设计模式实验一
-- [ ] 
+- [x] 设计模式实验一
+- [ ] 蓝桥杯Java训练
+
+##  Week2
+
+- [x] 安卓实验一
+- [x] VS编写C需要在return 0之前添加system("pause")
+- [ ] 看屠皓民考研英语书
+- [ ] 安卓机房的实验二导入本机IDEA时，需要设置Project Structure的Project SDK为API21，SDKs也要查看一下，点击Edit Configurations并新增Android App结束后，若遇到The activity must be exported or contain an intent-filter，则在AndroidManifest.xml中android:exported="true"。
 
