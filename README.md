@@ -161,7 +161,7 @@ setTimeout(function(){
 
 ## 寒假
 
-- [ ] 华东师范大学(专硕数二+英二+数据结构)、苏州大学(专硕数二+英二+数据结构与操作系统)、华东理工大学、上海大学、东南大学（含苏州研究院）、江南大学、杭电、cskaoyan
+- [ ] 华东师范大学(专硕数二+英二+数据结构)、苏州大学(专硕数二+英二+数据结构与操作系统)、华东理工大学、上海大学、东南大学（含苏州研究院）、江南大学(徐少杰说专业课压分)、杭电、武汉大学(ABCD卷)、cskaoyan
 - [x] 主要：主页、个人中心
 - [x] 次要：购买页面、新闻公告、新闻页面
 
@@ -180,6 +180,17 @@ setTimeout(function(){
 
 - [x] 安卓实验一
 - [x] VS编写C需要在return 0之前添加system("pause")
-- [ ] 看屠皓民考研英语书
-- [ ] 安卓机房的实验二导入本机IDEA时，需要设置Project Structure的Project SDK为API21，SDKs也要查看一下，点击Edit Configurations并新增Android App结束后，若遇到The activity must be exported or contain an intent-filter，则在AndroidManifest.xml中android:exported="true"。
+- [ ] 看屠皓民考研英语书P1-P20
+- [ ] 递归算法
+- [x] 安卓机房的实验二导入本机IDEA时，需要设置Project Structure的Project SDK为API21，SDKs也要查看一下，点击Edit Configurations并新增Android App结束后，若遇到The activity must be exported or contain an intent-filter，则在AndroidManifest.xml中android:exported="true"。
+- [ ] 咨询程浩老师普通高中分数线是否包含体育和理化生分数，给程浩老师开发查分网站
+- [ ] 实验室10.18.47.108
+### Saturday
 
+- [x] 上午熟悉各大考研机构的高数视频
+- [x] 下午练英语字帖一页
+- [ ] 晚上六级真题模拟、java递归
+
+### Sunday
+
+- [ ] 新东方高昆仑高数
