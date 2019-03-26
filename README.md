@@ -1,3 +1,5 @@
+
+
 # 2018-2019-1
 
 ﻿##  许子立本周主要工作
@@ -151,9 +153,9 @@ setTimeout(function(){
 ## Week19
 
 - [x] 开展苏州项目，辅助前端开发，需要用到C#
-- [ ] 雷达-院级大创结项报告
-- [ ] 借SpringInAction、PHP-Laravel的书(视频: PHP Laravel Vue.js 视频教程 - CODECASTS、[php开发知乎视频](https://github.com/JellyBool/zhihu-app))、续借三本书、020尚硅谷VUE核心技术视频
-- [ ] [安装 LEMP 环境 （PHP7）](https://www.codecasts.com/series/deploy-laravel-app-on-vps/episodes/2)
+- [x] 雷达-院级大创结项报告
+- [x] 借SpringInAction、PHP-Laravel的书(视频: PHP Laravel Vue.js 视频教程 - CODECASTS、[php开发知乎视频](https://github.com/JellyBool/zhihu-app))、续借三本书、020尚硅谷VUE核心技术视频
+- [x] [安装 LEMP 环境 （PHP7）](https://www.codecasts.com/series/deploy-laravel-app-on-vps/episodes/2)
 - [ ] coursera-algorithm和Java程序设计、啊哈算法
 - [ ] 基于JWT标准的用户认证接口实现
   https://www.xiaohuochai.cc/posts/5b02978325115949d4b67eae
@@ -174,23 +176,61 @@ setTimeout(function(){
 - [x] PHP实验一
 - [x] 软件测试实验一
 - [x] 设计模式实验一
-- [ ] 蓝桥杯Java训练
+- [x] 蓝桥杯Java训练
 
 ##  Week2
 
+### Weekdays
+
 - [x] 安卓实验一
 - [x] VS编写C需要在return 0之前添加system("pause")
-- [ ] 看屠皓民考研英语书P1-P20
-- [ ] 递归算法
+- [x] 看屠皓民考研英语书P1-P20
 - [x] 安卓机房的实验二导入本机IDEA时，需要设置Project Structure的Project SDK为API21，SDKs也要查看一下，点击Edit Configurations并新增Android App结束后，若遇到The activity must be exported or contain an intent-filter，则在AndroidManifest.xml中android:exported="true"。
-- [ ] 咨询程浩老师普通高中分数线是否包含体育和理化生分数，给程浩老师开发查分网站
-- [ ] 实验室10.18.47.108
+- [x] 咨询程浩老师普通高中分数线是否包含体育和理化生分数，给程浩老师开发查分网站
 ### Saturday
 
 - [x] 上午熟悉各大考研机构的高数视频
 - [x] 下午练英语字帖一页
-- [ ] 晚上六级真题模拟、java递归
 
-### Sunday
+## Week3
 
-- [ ] 新东方高昆仑高数
+- [x] php实验二
+- [x] 晚上六级真题模拟（30min一篇阅读理解正确率：4/5）
+- [x] 第一讲 极限的定义（讲义P3~7）
+- [x] 汤加凤1、2、3、4（11:30）
+- [x] 咨询殷旭东老师IP、宿舍垃圾袋带过来、16个义工
+- [x] 安卓实验二
+- [x] 1月24日-函数的概念、1月25日-函数的特性、1月26日-数列极限
+- [x] [b站数据结构与算法基础-java版](https://www.bilibili.com/video/av33835237) 
+  - [P11.1数据结构概述](https://www.bilibili.com/video/av33835237/?p=1)
+  - [P21.2算法概述](https://www.bilibili.com/video/av33835237/?p=2)
+  - [P32.1数组的基本使用](https://www.bilibili.com/video/av33835237/?p=3)
+  - [P42.2数组元素的添加](https://www.bilibili.com/video/av33835237/?p=4)
+  - [P52.3数组元素的删除](https://www.bilibili.com/video/av33835237/?p=5)
+  - [P62.4面向对象的数组](https://www.bilibili.com/video/av33835237/?p=6)
+  - [P72.5查找算法之线性查找](https://www.bilibili.com/video/av33835237/?p=7)
+
+## Week4
+
+- [x] [考研数学零基础教材精讲班-高昆轮](https://www.bilibili.com/video/av18866922)
+  - [P104.第一章 第二节 数列的极限](https://www.bilibili.com/video/av18866922/?p=1)
+  - [P205.第一章 第三节 函数的极限](https://www.bilibili.com/video/av18866922/?p=2)
+  - [P3P3](https://www.bilibili.com/video/av18866922/?p=3)
+  - [P407.第一章 第五节 极限运算法则](https://www.bilibili.com/video/av18866922/?p=4)
+- [x] [b站数据结构与算法基础-java版](https://www.bilibili.com/video/av33835237) 
+  - [P82.6 查找算法之二分法查找](https://www.bilibili.com/video/av33835237/?p=8)
+  - [P92.7查找算法整合](https://www.bilibili.com/video/av33835237/?p=9)
+  - [P102.8栈](https://www.bilibili.com/video/av33835237/?p=10)
+- [x] 周五上午训练蓝桥杯Java
+- [x] 周日上午蓝桥杯比赛、下午六级听力
+
+## Week5
+
+- [ ] 曹政百度云、闲鱼卖家百度云
+- [ ] 周一、周二：扇贝网听力练习、201606CET6阅读真题(①80分钟做了202.35分；②45分钟做了213分)、准备6月份六级考试(当前时间不在学籍校区网上报名时间(`周二`2019-03-26 13:00 至 2019-04-04 23:55)内,无)
+- [ ] 递归、DFS及有向DFS
+- [ ] 安卓作业二
+- [ ] 软件测试实验二
+- [ ] 设计模式实验二
+- [ ] 处理百度云盘重复文件
+
