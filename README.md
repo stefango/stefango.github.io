@@ -1,5 +1,3 @@
-
-
 # 2018-2019-1
 
 ﻿##  许子立本周主要工作
@@ -290,9 +288,9 @@ setTimeout(function(){
 ## Week12
 
 - [x] 电子商务实验五
-- [ ] ~~php实验四~~，知乎，发布博文图片，邮件订阅，关注用户，评论
+- [ ] ~~php实验四~~，知乎，发布博文图片，邮件订阅，关注用户，评论(搁置)
 - [x] 设计模式实验五
-- [ ] ~~安卓完善理论作业3和实验四、imooc的BaseAdapter视频、4月25日安卓代码、5月9日安卓代码~~、myapp_4_16 RecyclerView导包
+- [x] ~~安卓完善理论作业3和实验四、imooc的BaseAdapter视频、4月25日安卓代码、5月9日安卓代码~~、myapp_4_16 RecyclerView导包
 - [x] 软件测试实验三
 - [ ] 东华大学2020夏令营(5月13日发布)
 - [x] 支付宝报销住院费用
@@ -301,8 +299,28 @@ setTimeout(function(){
 
 ## Week13
 
-- [x] 安卓：~~作业4、实验5~~（周日之前交）、大作业（17周）
+- [x] 安卓：~~作业4、实验5（周日之前交）~~、[Android应用项目中BaseAdapter、SimpleAdapter和ArrayAdapter中的三种适配器](https://www.cnblogs.com/demoMeng/p/6115289.html)、大作业（17周）、[okhttp-post](https://raw.githubusercontent.com/square/okhttp/master/samples/guide/src/main/java/okhttp3/guide/PostExample.java)
 - [x] 软件测试：实验四Junit（周五之前交）
-- [ ] 设计模式：~~实验六~~、实验七
-- [ ] php挂号系统
+- [x] 设计模式：实验六、实验七
 
+## Week14
+
+- [x] php：[PHP数据库utils](https://www.cnblogs.com/woider/p/5875262.html)
+
+  ①Vue-cli项目打包后，发布到容器子目录`projectName`下，需要对项目作出两处修改：一处是在`config/index.js`的`build`下面修改`assetsPublicPath: '/'`改为`assetsPublicPath: './'`，一处是在`src/router/index.js`的`Router`下面新增`base: '/projectName/'`。最后，可以通过`http://域名/projectName`来访问项目了。
+
+  注：`Router`的 `mode: 'history'`可以去掉#号，但是会导致发布后的项目在刷新的时候报404。
+
+  ②当Vue-cli项目的生产版本和发布版本调用的api不同时，我们可以在`build/webpack.dev.conf.js`和`
+  build/webpack.prod.conf.js`中分别添加键值对`API_ROOT: '"http://127.0.0.1/dev_api"'`和`API_ROOT: '"http://domainname/prod_api"'`，此时你会发现在vue组件中使用的`process.env.API_ROOT`是`undefined`，`console.log(process.env)`只显示`{NODE_ENV: "development"}`。原因是修改webpack配置后，需要重启项目才能生效，然而CSDN的这位网友并未阐明:cry:
+  
+  ref: https://blog.csdn.net/u014054437/article/details/82970725#commentBox
+
+- [ ] 安卓：~~`xzl_5_28`的`MainActivity`无法获取`xzl_5_30`的`ContentProvider`（原因：注意修改`AndroidManifest.xml`中`provider`的`android:authorities`）、作业5、实验六~~、BottomNavigationView底部导航
+
+
+## Week15
+
+- [ ] 周一向周荣提交剩余的4份宿舍卫生检讨书
+- [ ] PHP：final医生处理病人、病人查看预约信息
+- [ ] 安卓：final
