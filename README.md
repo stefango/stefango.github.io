@@ -321,6 +321,14 @@ setTimeout(function(){
 
 ## Week15
 
-- [ ] 周一向周荣提交剩余的4份宿舍卫生检讨书
-- [ ] PHP：final医生处理病人、病人查看预约信息
-- [ ] 安卓：final
+- [x] 周一向周荣提交剩余的4份宿舍卫生检讨书
+- [x] PHP：实验五？、final医生处理病人、病人查看预约信息、完善主页信息、添加新闻管理、解决头像为空、[MySQL定时任务](https://blog.csdn.net/sinat_27933301/article/details/85948162)、[10秒带你实现图片上传到服务器](https://github.com/surmon-china/vue-quill-editor/issues/135)
+- [x] 安卓：final-提交时间：2019.6.20晚，答辩时间：2019.6.21上午8：00-10：30 N6-103
+- [x] 软件测试：实验五、实验报告
+- [x] 找王学宇成绩单盖章
+- [ ] 设计模式：实验八、大作业(三种设计模式)
+- [x] [常规问题解决：File "/usr/bin/yum", line 30 及 File "/usr/libexec/urlgrabber-ext-down", line 28](https://www.cnblogs.com/Trees/p/7497268.html)
+- [ ] 6月16日还书（17日过期）
+
+## Week16
+
