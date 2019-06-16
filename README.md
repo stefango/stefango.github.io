@@ -323,12 +323,39 @@ setTimeout(function(){
 
 - [x] 周一向周荣提交剩余的4份宿舍卫生检讨书
 - [x] PHP：实验五？、final医生处理病人、病人查看预约信息、完善主页信息、添加新闻管理、解决头像为空、[MySQL定时任务](https://blog.csdn.net/sinat_27933301/article/details/85948162)、[10秒带你实现图片上传到服务器](https://github.com/surmon-china/vue-quill-editor/issues/135)
-- [x] 安卓：final-提交时间：2019.6.20晚，答辩时间：2019.6.21上午8：00-10：30 N6-103
+- [ ] 安卓：final-提交时间：2019.6.20晚，答辩时间：2019.6.21上午8：00-10：30 N6-103
 - [x] 软件测试：实验五、实验报告
 - [x] 找王学宇成绩单盖章
-- [ ] 设计模式：实验八、大作业(三种设计模式)
+- [x] 设计模式：实验八
 - [x] [常规问题解决：File "/usr/bin/yum", line 30 及 File "/usr/libexec/urlgrabber-ext-down", line 28](https://www.cnblogs.com/Trees/p/7497268.html)
-- [ ] 6月16日还书（17日过期）
 
 ## Week16
+
+- [x] CET6：201812-1、201812-3、周六下午三点考试(准考证、眼镜、身份证、手表、橡皮、铅笔、中性笔、耳机)
+
+- [x] 安卓：作业六、实验七（周四前提交）
+
+- [ ] 设计模式final：（17周前）大作业(三种设计模式)：登录注册(状态模式)、存取款(状态模式)
+
+- [x] 电子商务：final（周五前）
+
+- [ ] 软件测试：实验JMeter（17周周二之前上交）、复习指南
+
+- [x] 6月16日还书（17日过期）
+
+- [x] [iview upload 动态改变上传参数](https://www.jianshu.com/p/a15c22909dd9)
+
+- [ ] 河南省轻工业学校（对口大专：河南轻工职业学院）：500元预报名即可录取，有郑州轻工业大学保送名额
+
+- [ ] 联系郑州信息技术/郑州十中（对口大专：郑州市旅游职业学院）咨询电话：0371-5666 3156、61130911工作时间：早9：00-晚5：00
+
+- [x] 字体颜色渐变
+
+  ```css
+  .gradient-text{
+      background:-webkit-linear-gradient(left,#eb1f79 0%,#2a2361 100%);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent
+  }
+  ```
 
