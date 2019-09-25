@@ -7,7 +7,6 @@
 </style>
 <div class="aplayer">
 <div id="player1"></div>
-</script>
 </div>
 <!-- 如果是放在.md文件内则将js 的内容插在<script>中 -->
 <script>
