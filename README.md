@@ -1,11 +1,60 @@
+<link href="./public/css/APlayer.min.css" rel="stylesheet">
+<script src="./public/js/APlayer.min.js"></script>
+<style>
+  .aplayer {
+  max-width: 700px;
+  margin:0px auto 0px auto;
+</style>
+<div class="aplayer">
+<div id="player1"></div>
+</script>
+</div>
+//如果是放在.md文件内则将js 的内容插在<script>中
+<script>
+const ap = new APlayer
+({
+    container: document.getElementById('player1'),
+    autoplay: false,
+  volume: 0.5,
+  mini: false,
+  preload: 'auto',
+  mutex: true,
+  listFolded: false,
+  listMaxHeight: 90,
+  loop: 'all',
+  order: 'list',
+    audio: [{
+    title: '心拍数♯0822',
+    author: 'H△G',
+    url: '/music/%E5%A3%B0%20~VOCALOID%20Cover%20Album~/H%E2%96%B3G%20-%20%E5%BF%83%E6%8B%8D%E6%95%B0%E2%99%AF0822.mp3',
+    pic: '/music/%E5%A3%B0%20~VOCALOID%20Cover%20Album~/cover.jpg'
+    },
+  {
+    title: 'Freesia',
+    author: '(K)NoW_NAME,Ayaka Tachibana',
+    url: '/music/SAKURA%20QUEST%20BEST/(K)NoW_NAME,Ayaka%20Tachibana%20-%20Freesia.mp3',
+    pic: '/music/SAKURA%20QUEST%20BEST/cover.jpg'
+    },
+    {
+    title: '渡月橋 〜君 想ふ〜',
+    author: '倉木麻衣',
+    url: '/music/%E6%B8%A1%E6%9C%88%E6%A9%8B%20%E3%80%9C%E5%90%9B%20%E6%83%B3%E3%81%B5%E3%80%9C/%E5%80%89%E6%9C%A8%E9%BA%BB%E8%A1%A3%20-%20%E6%B8%A1%E6%9C%88%E6%A9%8B%20%E3%80%9C%E5%90%9B%20%E6%83%B3%E3%81%B5%E3%80%9C.mp3',
+    pic: '/music/%E6%B8%A1%E6%9C%88%E6%A9%8B%20%E3%80%9C%E5%90%9B%20%E6%83%B3%E3%81%B5%E3%80%9C/cover.png'
+    },]
+});
+ap.init();
+</script>
+
 # 2018-2019-1
 
-﻿##  许子立本周主要工作
+## 许子立本周主要工作
 
 - 一是使用Xshell配置AWS EC2（CentOS7+Tomcat7+Java 1.7）
 - 二是编写<a href="http://54.169.47.114:8080/LabFirst/">实验室网页</a>
 - 三是提交大创项目中期报告
+
 ## 下周工作打算
+
 - 一是了解如何在树莓派上配置Nginx服务器并部署网站
 - 二是继续学习<a href="https://www.imooc.com/video/5553">Web开发</a>
 
@@ -161,7 +210,13 @@ setTimeout(function(){
 
 # 大三寒假
 
-- [ ] 华东师范大学(专硕数二+英二+数据结构)、苏州大学(专硕数二+英二+数据结构与操作系统)、华东理工大学、上海大学、东南大学（含苏州研究院）、江南大学(不保护一志愿、徐少杰说专业课压分)、杭电、武汉大学(ABCD卷、D卷360+才稳)、19华科学硕扩招(？)、中科院信工所（290+）、cskaoyan、南师大
+- [ ] 华东师范大学(专硕数二+英二+数据结构)何积丰院长即将退休，资源扩散，软件招生名额减少
+  - 魅影·啸月(376652106)
+  - 1.院系调整，华师软件砍了30%的名额，大部分给了华师计科；而且华师软件目前仅剩了冷门方向
+  - 2.华师计科偏向acm选手，acm有经验的推荐计科，因为华师计科机试占比很大，好坏能拉初试20分左右
+  - 常年软件三百来人，计科一百来人复试
+- [ ] 中国人民大学高瓴**líng**人工智能学院2021改408，2020过渡期
+- [ ] 苏州大学(专硕数二+英二+数据结构与操作系统)、华东理工大学、上海大学、东南大学（含苏州研究院）、江南大学(不保护一志愿、徐少杰说专业课压分)、杭电、武汉大学(ABCD卷、D卷360+才稳)、19华科学硕扩招(？)、中科院信工所（290+）、cskaoyan、南师大
 - [ ] 东华大学(夏令营降十分录取、计算机应用系：[黄永锋(副教授)Web开发](http://cst.dhu.edu.cn/62/85/c3131a25221/page.htm)、计算机软件与理论系：陈德华(副教授)][黄秋波(副教授)JavaEE、SSH](http://cst.dhu.edu.cn/62/37/c3132a25143/page.htm)
 - [ ] 东北石油大学联合培养（1年在东北石油大学、1年在常熟理工）、日本九州工业大学
 - [x] 主要：主页、个人中心
@@ -248,18 +303,16 @@ setTimeout(function(){
 
 ## Week7
 
-- [ ] [考研数学零基础教材精讲班-高昆轮](https://www.bilibili.com/video/av18866922)
+- [x] [考研数学零基础教材精讲班-高昆轮](https://www.bilibili.com/video/av18866922)
 
   - [P1114.第二章 第一节 导数与微分01](https://www.bilibili.com/video/av18866922/?p=11)
 
-  
-
   - [P1215.第二章 第一节 导数与微分02](https://www.bilibili.com/video/av18866922/?p=12)
-  - [P1316.第二章 第二节 函数的求导法则](https://www.bilibili.com/video/av18866922/?p=13)
+- [P1316.第二章 第二节 函数的求导法则](https://www.bilibili.com/video/av18866922/?p=13)
   - [P1417.第二章 第三节 高阶导数](https://www.bilibili.com/video/av18866922/?p=14)
   - [P1518.第二章 第四节 特殊函数的导数](https://www.bilibili.com/video/av18866922/?p=15)
   - [P1619.第二章 第五节 函数的微分](https://www.bilibili.com/video/av18866922/?p=16)
-
+  
 - [x] 设计模式实验四
 
 - [x] 20190411实验课老师代码
@@ -284,7 +337,7 @@ setTimeout(function(){
 - [x] 五一之后软件测试期中
 - [x] 周三设计模式期中
 - [x] 杨明珠简历
-- [ ] 奇数天健身
+- [x] 奇数天健身
 
 ## Week12
 
@@ -293,7 +346,7 @@ setTimeout(function(){
 - [x] 设计模式实验五
 - [x] ~~安卓完善理论作业3和实验四、imooc的BaseAdapter视频、4月25日安卓代码、5月9日安卓代码~~、myapp_4_16 RecyclerView导包
 - [x] 软件测试实验三
-- [ ] 东华大学2020夏令营(5月13日发布)
+- [x] 东华大学2020夏令营(5月13日发布)
 - [x] 支付宝报销住院费用
 - [x] 打印助学贷款申请表(下载目录中)
 - [x] 续借至2019-06-17
@@ -317,7 +370,7 @@ setTimeout(function(){
   
   ref: https://blog.csdn.net/u014054437/article/details/82970725#commentBox
 
-- [ ] 安卓：~~`xzl_5_28`的`MainActivity`无法获取`xzl_5_30`的`ContentProvider`（原因：注意修改`AndroidManifest.xml`中`provider`的`android:authorities`）、作业5、实验六~~、BottomNavigationView底部导航
+- [x] 安卓：~~`xzl_5_28`的`MainActivity`无法获取`xzl_5_30`的`ContentProvider`（原因：注意修改`AndroidManifest.xml`中`provider`的`android:authorities`）、作业5、实验六~~、BottomNavigationView底部导航
 
 
 ## Week15
@@ -342,9 +395,9 @@ setTimeout(function(){
 
 - [x] [iview upload 动态改变上传参数](https://www.jianshu.com/p/a15c22909dd9)
 
-- [ ] 河南省轻工业学校（对口大专：河南轻工职业学院）：500元预报名即可录取，有郑州轻工业大学保送名额
+- [x] 河南省轻工业学校（对口大专：河南轻工职业学院）：500元预报名即可录取，有郑州轻工业大学保送名额
 
-- [ ] 联系郑州信息技术/郑州十中（对口大专：郑州市旅游职业学院）咨询电话：0371-5666 3156、61130911工作时间：早9：00-晚5：00
+- [x] 联系郑州信息技术/郑州十中（对口大专：郑州市旅游职业学院）咨询电话：0371-5666 3156、61130911工作时间：早9：00-晚5：00
 
 - [x] 字体颜色渐变
 
@@ -378,7 +431,7 @@ setTimeout(function(){
 - [ ] 下学期重修操作系统？
 - [x] 实验室安全考试
 
-# 大三暑假（7月1日-）
+# 大三暑假（7月1日）
 
 ## Week1
 
@@ -387,7 +440,28 @@ setTimeout(function(){
   - 行李箱
   - 不参加推免面试的只需要带身份证和学生证。
 
-## 20190801
+# 20190731
 
-- [ ] 新建dev分支
-- [ ] 第二次提交到dev分支
+## 143-0731
+
+- 感冒
+
+## 142-0801
+
+- [x] 新建dev分支
+- [x] 第二次提交到dev分支
+
+## 141-0802
+
+- [ ] [理财系统springboot](https://www.bilibili.com/video/av40320810?from=search&seid=6308388692867925026)
+
+- [x] 取快递（徐涛政治）
+
+## 139-0804
+
+- [x] 区间再现专项练习
+
+## 117-0825
+
+- [ ] git add
+
