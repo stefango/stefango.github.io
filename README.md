@@ -1,5 +1,5 @@
-<link href="./public/css/APlayer.min.css" rel="stylesheet">
-<script src="./public/js/APlayer.min.js"></script>
+<link href="/public/css/APlayer.min.css" rel="stylesheet">
+<script src="/public/js/APlayer.min.js"></script>
 <style>
   .aplayer {
   max-width: 700px;
